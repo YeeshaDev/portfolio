@@ -1,0 +1,152 @@
+.skills {
+    font-family: 'Roboto',sans-serif;
+    font-size: 10rem;
+    color:#3a3939;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin: 2rem 0 0 3rem;
+    }
+    
+    .my-skills {
+        width: 320px; 
+        margin: auto;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+        letter-spacing: 5px;
+        display: block;
+        white-space: nowrap;
+        text-align: center;
+        top: -120px;
+        left: -180px;
+        position: relative;
+        color:var(--primary-color1);
+    }
+
+    .skills-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        
+    }
+
+    .my-skillset{
+        animation: rotate 15s linear infinite;
+    }
+
+    @keyframes rotate {
+       
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+    .my-skillset img{
+        width: 350px;
+    }
+
+    
+
+    .technologies h4{
+        margin-left: 4rem;
+        margin-top: -4rem;
+    }
+    .techstack-content {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        max-width: 800px;
+        margin: 0.7rem 4rem;
+    }
+
+    .techstack {
+        display: flex;
+        align-items: center;
+        gap: 0.2rem;
+        line-height: 2.5;
+    }
+
+    .stack-icon {
+        font-size: 1rem;
+        color: var(--primary-color1);
+        
+    }
+    
+    @media screen and (max-width:900px) {
+        .skills {
+            font-family: 'Roboto',sans-serif;
+            font-size: 9rem;
+            color:#3a3939;
+            font-weight: 900;
+            letter-spacing: 7px;
+            margin: 2rem 0 0 3rem;
+            }
+            
+            .my-skills {
+                width: 320px; 
+                margin: auto;
+                font-size: 1.9rem;
+                font-weight: bold;
+                text-transform: capitalize;
+                letter-spacing: 5px;
+                display: block;
+                white-space: nowrap;
+                text-align: center;
+                top: -100px;
+                left: -10px;
+                position: relative;
+                color:var(--primary-color1);
+            }
+        
+        .skills-info {
+            flex-direction: column-reverse;
+            height: 100%;
+            padding: 3rem 0;
+        }
+        .skills-subtext {
+            padding: 0 1rem;
+        }
+        .technologies h4{
+            margin-left: 2.5rem;
+            margin-top: -2rem;
+        }
+        .techstack-content {
+            margin: 0.7rem 2rem;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        .skills {
+            font-family: 'Roboto',sans-serif;
+            font-size: 7rem;
+            margin: 2rem 0 0 2rem;
+            }
+            
+            .my-skills {
+                width: 320px; 
+                margin: auto;
+                font-size: 1.7rem;
+                letter-spacing: 5px;
+                top: -85px;
+                left: -3px;
+            }
+        
+        
+        .my-skillset img{
+            width: 90%;
+            margin: auto;
+        }
+        
+        .techstack-content {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            
+        }
+        .technologies h4{
+            margin-left: 1.2rem;
+            margin-top: -2rem;
+        }
+    }
+   

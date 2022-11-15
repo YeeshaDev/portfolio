@@ -1,0 +1,264 @@
+.about-content{
+    margin: 70px auto 0;
+   
+}
+.about-wrapper .about{
+    font-family: 'Roboto',sans-serif;
+font-size: 12rem;
+color:#3a3939;
+font-weight: 900;
+letter-spacing: 7px;
+margin-left: 3rem;
+}
+.my-self{
+    width: 320px; 
+    margin: auto;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -120px;
+    left: -110px;
+    color:var(--primary-color1);
+}
+.my-self::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: var(--primary-color1);
+    position: absolute;
+    bottom: 22px;
+    left: -380px;
+    
+}
+.my-self::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color1);
+    position: absolute;
+    left: -380px;
+    bottom: 22px;
+    border-radius: 50%;
+    
+}  
+.my-self::after{
+    animation: ball 5s ease-in-out infinite alternate;
+    -webkit-animation: ball 5s ease-in-out infinite alternate;
+    -o-animation: ball 5s ease-in-out infinite alternate;
+}
+@keyframes ball{
+    0%{
+        transform: translateX(0);  
+    }
+    28%{
+       z-index: -999; 
+    }
+    100%{
+        transform: translateX(325px);
+    } 
+}
+
+.about-wrapper p {
+    padding-bottom: 3rem;
+    width: 800px;
+    margin: auto;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.tools-text {
+    display: block;
+    border: 1px solid var(--clr-white);
+    padding: 1rem 0.5rem;
+    height: 300px;
+    width: 350px;
+    margin: 0.5rem;
+}
+
+.tools-text:hover {
+    border: 1px solid var(--primary-color1);
+    background-color:rgb(255,255,255,0.1);
+}
+
+.tools-text h1 {
+    margin: 0 1rem;
+}
+.tools-text p {
+    width: 300px;
+    margin-top: 1rem;
+}
+
+.problem-solving-img {
+    width: 3rem;
+}
+
+.tools-text .mobile-icon {
+    color: #828282;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:900px){
+    .about-wrapper .about{
+        font-family: 'Roboto',sans-serif;
+    font-size: 9rem;
+    color:#3a3939;
+    font-weight: 900;
+    letter-spacing: 7px;
+    }
+    .my-self{
+        width: 320px; 
+        margin: auto;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 5px;
+        display: block;
+        text-align: center;
+        position: relative;
+        top: -100px;
+        left: 110px;
+        color:var(--primary-color1);
+    }
+    .my-self::before{
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: var(--primary-color1);
+        position: absolute;
+        bottom: 0;
+        left: -300px;
+        
+    }
+    .my-self::after{
+        content: '';
+        width: 40px;
+        height: 40px;
+        background: var(--primary-color1);
+        position: absolute;
+        left: -300px;
+        bottom: 0;
+        border-radius: 50%;
+        
+    }  
+
+    .about-wrapper p {
+        padding-bottom: 3rem;
+        width: 500px;
+        margin: auto;
+    }
+    .tools {
+        flex-direction: column;
+        width: 90%;
+        
+    }
+    
+    .tools-text {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .tools-text h1 {
+        margin: 0 4rem;
+        margin-left: 0.7rem;
+    }
+
+    .tools-text h1 br {
+        display: none;
+    }
+
+    .tools-text p {
+        width: 400px;
+        margin-left: 0.7rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:500px){
+    .about-wrapper .about{
+    font-size: 7rem;
+    }
+    .my-self{
+        
+        top: -100px;
+        left: 90px;
+        margin: auto;
+        
+    }
+    .my-self::before{
+        content: '';
+        width:100%;
+        bottom: -15px;
+        left: -300px;
+        
+    }
+    .my-self::after{
+        bottom: -15px;
+        border-radius: 50%;
+        
+    }  
+
+    .about-wrapper p {
+        padding-bottom: 3rem;
+        width: 300px;
+        margin: auto;
+}
+.tools-text {
+    height: 100%;
+}
+.tools-text p {
+    width: 300px;
+    margin-top: 1rem;
+}
+}
+
+@media screen and (max-width:375px){
+    .about-wrapper .about{
+    
+    letter-spacing: 1px;
+    margin-left: 2rem;
+    }
+    .my-self{
+        letter-spacing: 2px;
+        width: 320px; 
+        top: -80px;
+        left: 90px;
+        
+    }
+    .my-self::before{
+        width: 200px;
+        content: '';
+        bottom: 10px;
+        left: -140px;
+        
+    }
+    .my-self::after{
+        width: 35px;
+        height: 35px;
+        bottom: 10px;
+        border-radius: 50%;
+        
+    }  
+
+    .about-wrapper p {
+        padding-bottom: 3rem;
+        width: 300px;
+        margin: auto;
+}
+.tools-text {
+    height: 100%;
+}
+.tools-text p {
+    width: 300px;
+    margin-top: 1rem;
+}
+}
+
+
