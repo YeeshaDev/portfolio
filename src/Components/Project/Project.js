@@ -1,6 +1,5 @@
 import React from 'react';
 import './Project.css';
-import Particle from './Particle';
 
 function Project() {
     return (
@@ -15,11 +14,11 @@ function Project() {
                 pariatur inventore facilis reprehenderit, 
                 aut tenetur iure.</h4>
          <a href='https://youtube-clone-yeeshadev.vercel.app'
-         className='project-links'>
-            View Demo</a> 
+         className='project-links'><span>
+            View Demo</span></a> 
             <a href='https://youtube-clone-yeeshadev.vercel.app'
-            className='project-links'>
-            Source Code</a> 
+            className='project-links'><span>
+            Source Code</span></a> 
             </div>
                 <div className='project-info '>
                     <img src='./images/project-img.png'
@@ -35,11 +34,11 @@ function Project() {
                 pariatur inventore facilis reprehenderit, 
                 aut tenetur iure.</h4>
          <a href='https://youtube-clone-yeeshadev.vercel.app'
-         className='project-links'>
-            View Demo</a> 
+         className='project-links'><span>
+            View Demo</span></a> 
             <a href='https://youtube-clone-yeeshadev.vercel.app'
-            className='project-links'>
-            Source Code</a> 
+            className='project-links'><span>
+            Source Code</span></a> 
             </div>
                 <div className='project-info '>
                     <img src='./images/project-2.png'
@@ -55,11 +54,11 @@ function Project() {
                 pariatur inventore facilis reprehenderit, 
                 aut tenetur iure.</h4>
          <a href='https://youtube-clone-yeeshadev.vercel.app'
-         className='project-links'>
-            View Demo</a> 
+         className='project-links'><span>
+            View Demo</span></a> 
             <a href='https://youtube-clone-yeeshadev.vercel.app'
-            className='project-links'>
-            Source Code</a> 
+            className='project-links'><span>
+            Source Code</span></a> 
             </div>
                 <div className='project-info '>
                     <img src='./images/project-3.png'
@@ -68,6 +67,7 @@ function Project() {
                
             </div>
             </div>
+        
             
             <hr/> 
         </div>

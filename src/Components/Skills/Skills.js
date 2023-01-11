@@ -2,6 +2,7 @@ import React from 'react';
 import {FaPlay} from 'react-icons/fa'
 import './Skills.css'
 
+
 function Skills() {
     return (
         <div className='skills-content'>
@@ -52,6 +53,7 @@ function Skills() {
             </div>
             
           </div>
+          
           <hr/> 
         </div>
     )

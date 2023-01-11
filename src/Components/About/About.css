@@ -87,6 +87,8 @@ margin-left: 3rem;
 .tools-text:hover {
     border: 1px solid var(--primary-color1);
     background-color:rgb(255,255,255,0.1);
+    transform: translateY(-10px);
+    transition: transform 0.3s linear;
 }
 
 .tools-text h1 {

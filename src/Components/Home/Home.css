@@ -1,5 +1,11 @@
+.home-content{
+  position: relative;
+  z-index: 10;
+}
+
 .home-content hr{
     margin-top: 3rem;  
+    
   }
   .home-upper {
       display: flex;
@@ -34,7 +40,7 @@
       background-color: var(--bg-color);
       border-left:5px solid var(--primary-color1);
       animation: typing 5s steps(10) infinite;
-      z-index: 1;
+      z-index: 2;
     }
     @keyframes typing {
       40%,60% {
@@ -52,16 +58,17 @@
     .hero-image{
       max-width: 80%;
       margin: 3rem auto 1rem auto;
-      z-index: 2;
+      z-index: 5;
       
     }
-  
+   
     .hero-image img {
       width: 23rem;
       object-fit: contain;
       
     }
-  
+    
+     
     .home-content p {
       font-size: 1rem;
       font-family: 'La Belle Aurore', cursive;

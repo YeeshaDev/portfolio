@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import {Link} from 'react-scroll'
-import {FaBars,FaTimes,FaPause,FaPlay} from 'react-icons/fa';
+import {FaTimes,FaPause,FaPlay,FaEquals} from 'react-icons/fa';
 import './Header.css';
 
 function Header({playing,pause,play}) {
@@ -38,11 +38,11 @@ function Header({playing,pause,play}) {
             </div>
             <button className='resume-btn'>Resume</button>
            <button className={menu ? 'menu-btn active' : 'menu-btn'} onClick={handleClick}>
-                    {menu ? <FaTimes/> : <FaBars/>}
+                    {menu ? <FaTimes/> : <FaEquals/>}
                 </button>
                   
          
-            
+                
             </nav> 
 
             <hr/> 

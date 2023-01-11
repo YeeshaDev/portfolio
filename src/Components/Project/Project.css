@@ -1,9 +1,11 @@
 .project-content {
     width: 100%;
-    
-    
+      
 }
 
+canvas {
+    z-index:0;
+}
 .work {
 font-family: 'Roboto',sans-serif;
 font-size: 10rem;
@@ -42,7 +44,8 @@ margin: 2rem 0 0 3rem;
     width: 400px;
     margin-left: 2rem;
 }
-.project-links {
+
+/*.project-links {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -52,6 +55,53 @@ margin: 2rem 0 0 3rem;
     width: 150px;
     height: 50px;
 }
+*/
+.project-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  width: 150px;
+  height: 50px;
+  line-height: 40px;
+  font-size: 1rem;
+  font-family:'Roboto', sans-serif;
+  margin:2rem 1rem;
+  padding: 0.5rem;
+  text-decoration: none;
+    color: var(--primary-color2);
+  border: 2px solid var(--primary-color1);
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  z-index: 1;
+    
+}
+.project-links span {
+    position: relative;
+    z-index: 2;
+  }
+
+.project-links:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #fff;
+    background: var(--primary-color1);
+    transition: all .35s;
+  }
+  
+  .project-links:hover{
+    color: #fff;
+  }
+  
+  .project-links:hover:after {
+    width: 100%;
+  }
+
 
 .project-info {
     position: relative;
@@ -104,7 +154,7 @@ margin: 2rem 0 0 3rem;
            margin-left: 1rem;
            margin-top: 1rem;
        }
-       .project-links {
+      /* .project-links {
            display: inline-flex;
            align-items: center;
            justify-content: center;
@@ -113,7 +163,7 @@ margin: 2rem 0 0 3rem;
            padding: 0.5rem;
            width: 150px;
            height: 50px;
-       }
+       }*/
        .project-info {
            position: relative;
            

@@ -49,12 +49,10 @@ margin: 1rem auto;
     border: none;
     font-family:'Roboto',sans-serif;
     font-size: 1rem;
+    position: relative; 
+    
 }
 
-.submit-btn:hover{
-    transform: scale(0.95);
-    transition: var(--transition);
-}
 .sent-message {
     display: flex;
     align-items: center;
@@ -124,5 +122,6 @@ margin: 1rem auto;
         font-size: 1rem;
         width: 50%;
     }
+    
    
 }

@@ -23,7 +23,7 @@ function Home() {
                     </section>
                     <p><q>Passionate about coding beautiful things...</q></p>
                     <a href='mailto:aishaagunbiade05@gmail.com'>contact me</a>
-                    
+                    <BackgroundAnimation/>
                 <hr />
         </div>
     )
