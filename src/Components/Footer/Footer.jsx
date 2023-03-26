@@ -49,7 +49,7 @@ function Footer() {
           
           </div>
            <p>Designed and built by<br/> Agunbiade
-            Aishat, 2022 </p> 
+            Aisha, 2023 </p> 
         </footer>
     )
 }

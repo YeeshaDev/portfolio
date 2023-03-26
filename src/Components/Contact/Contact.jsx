@@ -49,6 +49,7 @@ emailjs.sendForm('service_pvetqze',
                 <h1>Contact</h1>
                 
          <h2>Get In Touch</h2>
+         
          <p className='contact-text'>Dropping a line to say g'day,ask for my resume or see 
             if we can build somehing amazing together?
             I'd love to here from you!
@@ -95,7 +96,7 @@ emailjs.sendForm('service_pvetqze',
          
         </div>
 
-<hr/>
+         <hr/>
         </div>
     )
 }

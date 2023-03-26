@@ -10,7 +10,7 @@
     .my-skills {
         width: 320px; 
         margin: auto;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         font-weight: bold;
         text-transform: capitalize;
         letter-spacing: 5px;
@@ -21,8 +21,20 @@
         left: -180px;
         position: relative;
         color:var(--primary-color1);
+        animation: scale 2s ease-in-out infinite;
+    transition: all 0.2s ease-in-out;
     }
-
+    @keyframes scale {
+        0%,100%{
+           color: var(--primary-color1); 
+           
+        }50%{
+            color: transparent;
+        -webkit-text-stroke: 2px var(--primary-color1);
+        transition: all 0.4s ease-in-out;
+        }
+    }
+    
     .skills-info {
         display: flex;
         align-items: center;
@@ -75,13 +87,16 @@
     }
     
     @media screen and (max-width:900px) {
+        .skills-content {
+            margin-top: 7rem;
+        }
         .skills {
             font-family: 'Roboto',sans-serif;
             font-size: 9rem;
             color:#3a3939;
             font-weight: 900;
             letter-spacing: 7px;
-            margin: 2rem 0 0 3rem;
+            margin: 1rem 0 0 3rem;
             }
             
             .my-skills {
@@ -100,6 +115,7 @@
                 color:var(--primary-color1);
             }
         
+            
         .skills-info {
             flex-direction: column-reverse;
             height: 100%;
@@ -107,10 +123,11 @@
         }
         .skills-subtext {
             padding: 0 1rem;
+            
         }
         .technologies h4{
             margin-left: 2.5rem;
-            margin-top: -2rem;
+            margin-top: 5rem;
         }
         .techstack-content {
             margin: 0.7rem 2rem;
@@ -121,7 +138,7 @@
         .skills {
             font-family: 'Roboto',sans-serif;
             font-size: 7rem;
-            margin: 2rem 0 0 2rem;
+            margin: 4rem 0 0 2rem;
             }
             
             .my-skills {
@@ -144,9 +161,6 @@
             grid-template-columns: repeat(3,1fr);
             
         }
-        .technologies h4{
-            margin-left: 1.2rem;
-            margin-top: -2rem;
-        }
+        
     }
    

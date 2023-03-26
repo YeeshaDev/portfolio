@@ -5,7 +5,7 @@ import './Skills.css'
 
 function Skills() {
     return (
-        <div className='skills-content'>
+        <div className='skills-content' data-aos='fade-in'>
             <div className='skills-info'>
                 <div className='skills-text'>
           <h1 className='skills'>Skills</h1> 
