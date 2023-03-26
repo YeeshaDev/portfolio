@@ -38,8 +38,11 @@
 
 .close-btn {
     position: absolute;
-    top: -0.8rem;
+    top: -0.9rem;
     right: -0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--primary-color1);
     border-radius: 50%;
     width: 2rem;
