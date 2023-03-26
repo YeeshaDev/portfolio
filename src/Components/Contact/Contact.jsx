@@ -96,7 +96,7 @@ emailjs.sendForm('service_pvetqze',
          
         </div>
 
-<hr/>
+         <hr/>
         </div>
     )
 }
