@@ -14,7 +14,7 @@ function Home() {
                 <h2 >Frontend Web Developer</h2>
 
                 </div>
-                <div className='hero-image' data-aos="fade-right">
+                <div className='hero-image' data-aos="fade-in">
                     <div className='img-container'></div>
                     <img src='./images/avatar1.png' 
                     alt='avatar'/>  
