@@ -99,6 +99,7 @@
 
     .my-skillset img {
         width: 100%;
+        
     }
 
     .skills {
@@ -155,6 +156,15 @@
             width: 100%;
         }
         .technologies {
+            margin: 1rem;
+            
+        }
+        
+    }
+
+    @media screen and (max-width:380px) {
+        
+        .technologies {
             margin: 1rem 0;
             padding: 0 10px;
         }
@@ -162,6 +172,10 @@
     }
 
     
+
+    
+   
+          
 
     
    

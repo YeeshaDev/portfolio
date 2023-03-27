@@ -237,8 +237,11 @@ margin: 2rem 0 0 3rem;
         position: relative;
         image-resolution:from-image 300dpi;
         object-fit: cover;
-        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         image-rendering: optimizeQuality;
+        margin-left: 0.7rem;
        
     }
     
@@ -248,7 +251,7 @@ margin: 2rem 0 0 3rem;
         height: 75%;
         object-fit: contain;
         bottom: -5rem;
-        right: -13rem;
+        right: -12.5rem;
         
         
         

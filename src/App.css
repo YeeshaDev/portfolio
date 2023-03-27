@@ -35,6 +35,7 @@ a{
 p,h4{
   font-family: 'Poppins',sans-serif;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 body {
