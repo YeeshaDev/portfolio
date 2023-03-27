@@ -202,7 +202,7 @@ margin-left: 3rem;
     }
     .my-self{
         
-        top: -100px;
+        top: -90px;
         left: 90px;
         margin: auto;
         
@@ -238,26 +238,26 @@ margin-left: 3rem;
     .about-wrapper .about{
     
     letter-spacing: 1px;
-    margin-left: 2rem;
+    margin-left: 0;
     }
     .my-self{
         letter-spacing: 2px;
         width: 320px; 
         top: -80px;
         left: 90px;
+        font-size: 1.5rem;
         
     }
     .my-self::before{
-        width: 200px;
-        content: '';
-        bottom: 10px;
+        width: 230px;
+        bottom: 0px;
         left: -140px;
         
     }
     .my-self::after{
         width: 35px;
         height: 35px;
-        bottom: 10px;
+        bottom: 0px;
         border-radius: 50%;
         
     }  
@@ -266,13 +266,14 @@ margin-left: 3rem;
         padding-bottom: 3rem;
         width: 300px;
         margin: auto;
+        line-height: 2;
 }
 .tools-text {
     height: 100%;
 }
 .tools-text p {
-    width: 300px;
-    margin-top: 1rem;
+    width: 93%;
+    margin: 1rem;
 }
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Typed from "react-typed";
 import BackgroundAnimation from './BackgroundAnimation';
 import './Home.css'
 
@@ -8,8 +9,12 @@ function Home() {
             <section className='home-upper'>
             <div className='home-text' >
             <h1>Hi,<br/> 
-            <span>
-                I'm Aisha.</span>
+            <Typed
+            strings={["Aisha."]}
+            typeSpeed={120}
+            backSpeed={120}
+            loop
+          />
                 </h1>
                 <h2>Frontend Web Developer</h2>
 

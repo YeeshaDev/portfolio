@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Combo&family=La+Belle+Aurore&family=Lato:wght@300;400&family=Montserrat:wght@200;300;400;500&family=Noto+Sans:wght@100;200;300;400&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=La+Belle+Aurore&family=Lato:wght@300;400&family=Inter:wght@200;300;400&family=Montserrat:wght@200;300;400;500&family=Noto+Sans:wght@100;200;300;400&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
 * {
   margin:0;
   padding: 0;
@@ -31,6 +31,10 @@ a{
   text-align: center;
   text-decoration: none;
   color: var(--primary-color2);
+}
+p,h4{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
 }
 
 body {

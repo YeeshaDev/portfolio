@@ -57,15 +57,15 @@ footer p {
         display: none;
     }
     .mobile-links  {
-       margin-left: -3rem;
+       margin-left: -2rem;
 
     }
     .mobile-links a {
         display: inline-block;
-        margin: -0.3rem;
+        margin: -0.5rem;
     }
 
     .social-icon {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }

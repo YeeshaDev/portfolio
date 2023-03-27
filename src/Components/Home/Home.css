@@ -24,13 +24,12 @@
   }
   
   .home-text h1 span{
-      position: relative;
       color: var(--primary-color1);
       text-transform: uppercase;
       
     }
     
-    .home-text h1 span::after{
+   /* .home-text h1 span::after{
       content: '';
       position: absolute;
       top: 0;
@@ -51,7 +50,7 @@
         left:0;
       }
     }
-  
+*/
     .home-text h2 {
       font-size: 2.2rem;
     }
@@ -106,7 +105,7 @@
         margin-left: 3rem;
     }
       .home-text h1{
-        font-size: 3rem;
+        font-size: 4rem;
         
     }
     .home-text h2 {

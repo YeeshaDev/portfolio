@@ -26,30 +26,30 @@ function Skills() {
           <div className='technologies'>
             <h4>Here are the few technologies i have used:</h4>
             <div className='techstack-content'>
-            <span className='techstack'>
+            <div className='techstack'>
               <FaPlay className='stack-icon'/>
               <p>HTML</p>
-            </span>
-            <span className='techstack'>
+            </div>
+            <div className='techstack'>
               <FaPlay className='stack-icon'/>
               <p>CSS</p>
-            </span>
-            <span className='techstack'>
+            </div>
+            <div className='techstack'>
               <FaPlay className='stack-icon'/>
               <p>JavaScript</p>
-            </span>
-            <span className='techstack'>
+            </div>
+            <div className='techstack'>
               <FaPlay className='stack-icon'/>
               <p>React</p>
-            </span>
-            <span className='techstack'>
+            </div>
+            <div className='techstack'>
               <FaPlay className='stack-icon'/>
               <p>Tailwind</p>
-            </span>
-            <span className='techstack'>
+            </div>
+            <div className='techstack'>
               <FaPlay className='stack-icon'/>
               <p>Sass</p>
-            </span>
+            </div>
             </div>
             
           </div>
