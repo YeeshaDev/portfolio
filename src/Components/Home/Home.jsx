@@ -26,7 +26,7 @@ function Home() {
                                  
                     </div>
                     </section>
-                    <p ><q>Passionate about building beautiful things...</q></p>
+                    <h6 ><q>Passionate about building beautiful things...</q></h6>
                     <a href='mailto:aishaagunbiade05@gmail.com'>contact me</a>
                     <BackgroundAnimation/>
                 <hr />
