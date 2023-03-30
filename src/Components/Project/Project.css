@@ -284,7 +284,7 @@ margin: 2rem 0 0 3rem;
             
            }
         .project1 {
-            margin-top: 5px;
+            margin-top: 0;
         }
         .project-details{
             margin: 10px 0;
@@ -292,7 +292,7 @@ margin: 2rem 0 0 3rem;
         }
 
            
-           .project-details h4,.project-details h1 {
+    .project-details h4,.project-details h1 {
               margin: 10px auto;
               
               

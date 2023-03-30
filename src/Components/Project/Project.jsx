@@ -79,7 +79,58 @@ function Project() {
                
             </div>
             </div>
-        
+            <div className='project-wrapper project2'data-aos="fade-left">
+            <div className='project-details'>
+                <h1>TopSeal Blog</h1>
+            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, expedita voluptates? Ut corrupti 
+                pariatur inventore facilis reprehenderit, 
+                aut tenetur iure.</h4>
+         <a href='https://news-media-d3jm.vercel.app/'
+         className='project-links'><span>
+            View Demo</span></a> 
+            <a href='https://github.com/YeeshaDev/News-media'
+            className='project-links'><span>
+            Source Code</span></a> 
+            </div>
+                <div className='project-info '>
+                <div className='device'>
+                    <img src='./images/blog-laptop.png'
+                    alt='project'
+                    className='device-img'/>
+                    <img src='./images/blog-mobile.png'
+                    alt='project'
+                    className='mobile-img'/>
+                    </div>
+                    
+               
+            </div>
+            </div>
+            <div className='project-wrapper project2'data-aos="fade-right">
+            <div className='project-details'>
+                <h1>Musik</h1>
+            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, expedita voluptates? Ut corrupti 
+                pariatur inventore facilis reprehenderit, 
+                aut tenetur iure.</h4>
+         <a href='https://news-media-d3jm.vercel.app/'
+         className='project-links'><span>
+            View Demo</span></a> 
+            <a href='https://github.com/YeeshaDev/News-media'
+            className='project-links'><span>
+            Source Code</span></a> 
+            </div>
+                <div className='project-info '>
+                <div className='device'>
+                    <img src='./images/musik-tab.png'
+                    alt='project'
+                    className='device-img'/>
+                    <img src='./images/musik-mobile.png'
+                    alt='project'
+                    className='mobile-img'/>
+                    </div>
+                    
+               
+            </div>
+            </div>
             
             <hr/> 
         </div>
