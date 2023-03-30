@@ -232,8 +232,8 @@ margin: 2rem 0 0 3rem;
         margin:1rem auto;
        }
        .device-img {
-        width: 90%;
-        height: 100%;
+        width: 100%;
+        height: 300px;
         position: relative;
         image-resolution:from-image 300dpi;
         object-fit: contain;
@@ -278,14 +278,28 @@ margin: 2rem 0 0 3rem;
             left: 30px;
             
         }
-       
+
+        .project-wrapper {   
+            margin:-1rem auto;
+            
+           }
+        .project1 {
+            margin-top: 5px;
+        }
         .project-details{
-            margin: 1rem 0;
+            margin: 10px 0;
            
         }
+
+           
+           .project-details h4,.project-details h1 {
+              margin: 10px auto;
+              
+              
+           }
        .project-details h4 {
         line-height: 2;
-        width: auto;
+        width: 110%;
         
        }
 
@@ -305,13 +319,22 @@ margin: 2rem 0 0 3rem;
         margin:15px auto;
        }
 
+       .device-img {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        
+       
+    }
+    
+
        .mobile-img {
         position: absolute;
-        width: 90%;
-        height: 75%;
+        width: 150px;
+        height: 150px;
         object-fit: contain;
-        bottom: -3rem;
-        right: -6rem;
+        bottom: 0rem;
+        right: -2rem;
     
         
         
@@ -321,7 +344,7 @@ margin: 2rem 0 0 3rem;
        
 }
 
-@media only screen and (max-width:378px) {
+/*@media only screen and (max-width:378px) {
     .device-img {
         width: 80%;
         height: 90%;
@@ -342,5 +365,5 @@ margin: 2rem 0 0 3rem;
     
     
     
-}
+}*/
 
