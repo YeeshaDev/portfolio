@@ -28,7 +28,7 @@ function Header({playing,pause,play}) {
                 
                 <div className={menu ? 'menu active' : 'menu'} >
             <ul>
-                <li className='active-btn'><Link to='home' spy={true} smooth={true} offset={-70} duration={500}  onClick={handleClick}>Home</Link></li>
+                <li className='active-btn'><Link to='home' spy={true} smooth={true} offset={-70} duration={500}  onClick={handleClick} >Home</Link></li>
                 <li><Link to='about' spy={true} smooth={true} offset={-70} duration={500}  onClick={handleClick}>About</Link>
                 </li>
                 <li><Link to='project' spy={true} smooth={true} offset={-130} duration={500}  onClick={handleClick}>Projects</Link></li>

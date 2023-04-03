@@ -1,9 +1,9 @@
 import React from 'react';
-import {FaPlay} from 'react-icons/fa'
 import './Skills.css'
 
 
 function Skills() {
+  
     return (
         <div className='skills-content' data-aos='fade-in'>
             <div className='skills-info'>
@@ -24,34 +24,12 @@ function Skills() {
           </div>
           </div>
           <div className='technologies'>
-            <h4>Here are the few technologies i have used:</h4>
-            <div className='techstack-content'>
-            <div className='techstack'>
-              <FaPlay className='stack-icon'/>
-              <p>HTML</p>
-            </div>
-            <div className='techstack'>
-              <FaPlay className='stack-icon'/>
-              <p>CSS</p>
-            </div>
-            <div className='techstack'>
-              <FaPlay className='stack-icon'/>
-              <p>JavaScript</p>
-            </div>
-            <div className='techstack'>
-              <FaPlay className='stack-icon'/>
-              <p>React</p>
-            </div>
-            <div className='techstack'>
-              <FaPlay className='stack-icon'/>
-              <p>Tailwind</p>
-            </div>
-            <div className='techstack'>
-              <FaPlay className='stack-icon'/>
-              <p>Sass</p>
-            </div>
-            </div>
-            
+          <h4>Here are the few technologies i have used:</h4>
+          <div className='techstack'>
+            {Tstack.map((item) =>(
+              <p key={item.id} data-aos='fade-up'>{item.stack}</p>
+            ) )}
+          </div>
           </div>
           
           <hr/> 
@@ -60,3 +38,38 @@ function Skills() {
 }
 
 export default Skills
+
+const Tstack=[
+  {
+    id:1,
+    stack:'HTML',
+  },
+  {
+    id:2,
+    stack:'CSS',
+  },
+  {
+    id:3,
+    stack:'JavaScript',
+  },
+  {
+    id:4,
+    stack:'ReactJs',
+  },
+  {
+    id:5,
+    stack:'NextJs',
+  },
+  {
+    id:6,
+    stack:'Bootstrap',
+  },
+  {
+    id:7,
+    stack:'Tailwind',
+  },
+  {
+    id:8,
+    stack:'Scss',
+  }
+]

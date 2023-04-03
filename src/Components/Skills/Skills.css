@@ -58,28 +58,22 @@
         margin: 1rem 1.2rem;
         padding:0 2rem;
     }
-    .techstack-content {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        place-items: center;
-        max-width: 400px;
-        
-        
-    }
+    
 
     .techstack{
-        display: flex;
-        align-items: center;
-        justify-content:center;
-        gap: 5px;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap:1rem 3rem ;
+       
+    }
+
+    .techstack p{
         margin-top: 1rem;
-        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--primary-color1);
     }
 
-    .stack-icon {
-        color: var(--primary-color1);
-    }
-
+   
     @media screen and (max-width:960px) {
        .skills-info {
         display: flex;
@@ -124,10 +118,6 @@
             width: 100%;
         }
 
-        .technologies {
-            margin: 1rem;
-        }
-
         
     }
 
@@ -155,11 +145,9 @@
         .my-skillset img{
             width: 100%;
         }
-        .technologies {
-            margin: 1rem;
-            
+        .techstack {
+            grid-template-columns: 1fr;
         }
-        
     }
 
     @media screen and (max-width:380px) {

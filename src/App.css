@@ -13,7 +13,7 @@
   --clr-white:#fff;
   --text-font:'Open Sans',sans-serif;
   --padding: 1rem;
-  --transition:all 0.3s linear;
+  --transition:all 0.3s ease-out;
 }
 
 

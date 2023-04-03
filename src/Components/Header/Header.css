@@ -113,15 +113,15 @@ color: var(--primary-color1);
         flex-direction: column;
         display: block;
         position: fixed;
-        left: 70%;
-        top: 50%;
-        transform: translate(-50%,-50%);
+        top: 0;
+        right: 0;
         width: 70%;
         height: 100%;
         background-color: var(--bg-color);
         z-index: 99;
         transition: var(--transition);
         border-left: 1px solid #fff;
+        
     }
     .menu-btn.active {
         position: fixed;
