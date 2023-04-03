@@ -25,7 +25,7 @@ window.addEventListener('scroll', visible);
         <div className='scroll-btn'>
             <button>
             <FaArrowCircleUp onClick={scrolled} 
-     style={{display: scrollToTop ? 'inline' : 'none'}} />
+     style={{display: scrollToTop ? 'block' : 'none'}} />
      </button>
         </div>
     )

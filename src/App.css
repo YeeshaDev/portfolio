@@ -16,6 +16,15 @@
   --transition:all 0.3s linear;
 }
 
+
+
+body {
+  
+  background-color: var(--bg-color);
+  color:var(--clr-white);
+  font-family: var(--text-font);
+  
+}
 button {
   border:none;
   background-color: transparent;
@@ -36,14 +45,6 @@ p,h4{
   font-family: 'Poppins',sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
-}
-
-body {
-  
-  background-color: var(--bg-color);
-  color:var(--clr-white);
-  font-family: var(--text-font);
-  
 }
 
 .App{

@@ -155,6 +155,7 @@ margin: 2rem 0 0 3rem;
     overflow-wrap:normal;
     width: 500px;
     line-height: 2;
+
 }
 
 @media only screen and (max-width:960px) {
@@ -258,6 +259,7 @@ margin: 2rem 0 0 3rem;
     .project-details p {
         overflow-wrap: normal;
         width: 100%;
+        margin-top: 1rem;
     }
        
          
