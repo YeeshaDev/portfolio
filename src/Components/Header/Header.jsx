@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from 'react';
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+import PDF from './resume.pdf'
 import {FaTimes,FaPause,FaPlay,FaEquals} from 'react-icons/fa';
 import './Header.css';
 
@@ -33,10 +34,11 @@ function Header({playing,pause,play}) {
                 </li>
                 <li><Link to='project' spy={true} smooth={true} offset={-130} duration={500}  onClick={handleClick}>Projects</Link></li>
                 <li><Link to='contact' spy={true} smooth={true} offset={-70} duration={500}  onClick={handleClick}>Contact</Link></li>
-                <a href='#' className='resume'>Resume</a>
+                <a href={PDF} target='_blank'
+                className='resume'><span> Resume </span></a>
             </ul>
             </div>
-            <button className='resume-btn'>Resume</button>
+            <a href={PDF} target='_blank' className='resume-btn'><span>Resume</span></a>
            <button className={menu ? 'menu-btn active' : 'menu-btn'} onClick={handleClick}>
                     {menu ? <FaTimes/> : <FaEquals/>}
                 </button>

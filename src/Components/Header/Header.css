@@ -54,24 +54,11 @@ color: var(--primary-color1);
     color: var(--primary-color1);
 }
 
+
 .resume-btn {
-    display: block;
-    border: 1px solid var(--primary-color1);
-    color: var(--primary-color1);
-    width: 7rem;
-    height: 2rem;
-    cursor: pointer;
-}
-.resume {
     display: none;
 }
-.resume-btn:hover{
-    transform: scale(0.9);
-    transition: var(--transition);
-    background-color: var(--primary-color1);
-    color: var(--primary-color2);
-    
-}
+
 
 .menu-btn{
     display: none;
@@ -100,6 +87,52 @@ color: var(--primary-color1);
       box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
       transform: scale(0.9);
     }
+  }
+
+  .resume{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  width: 8rem;
+  height: 50px;
+  line-height: 40px;
+  font-size: 1rem;
+  font-family:'Roboto', sans-serif;
+  margin:0 1rem;
+  padding:0 0.5rem ;
+  text-decoration: none;
+    color: var(--primary-color2);
+  border: 2px solid var(--primary-color1);
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  z-index: 1;
+    
+}
+.resume span {
+    position: relative;
+    z-index: 2;
+  }
+
+.resume:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #fff;
+    background: var(--primary-color1);
+    transition: all .35s;
+  }
+  
+  .resume:hover{
+    color: #fff;
+  }
+  
+  .resume:hover:after {
+    width: 100%;
   }
 
 @media screen and (max-width:900px){

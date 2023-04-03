@@ -52,10 +52,6 @@ margin: 2rem 0 0 3rem;
     margin-top: 2rem;
 }
 
-
-
-
-
 .project-links {
     display: inline-flex;
     align-items: center;
@@ -103,11 +99,6 @@ margin: 2rem 0 0 3rem;
   }
 
 
-/*.project-info {
-    position: relative
-    
-}*/
-
 .project-img {
     width: 400px;
     margin-top: 2rem;
@@ -152,6 +143,7 @@ margin: 2rem 0 0 3rem;
     
    }
 .project-details p {
+    margin-top: 1rem;
     overflow-wrap:normal;
     width: 500px;
     line-height: 2;
