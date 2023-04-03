@@ -1,4 +1,5 @@
 import React from 'react';
+import { projects } from './data';
 import './Project.css';
 
 function Project() {
@@ -7,25 +8,27 @@ function Project() {
            
             <h1 className='work'>Projects</h1>
             <span className='my-projects'>my works</span>
-            <div className='project-wrapper project1' data-aos="fade-up">
-            <div className='project-details'>
-                <h1>Foodie Restuarant</h1>
-            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, expedita voluptates? Ut corrupti 
-                pariatur inventore facilis reprehenderit, 
-                aut tenetur iure.</h4>
-         <a href='https://foodie-restuarant-yeeshadev-fuzekzzfm-yeeshadev.vercel.app/'
+            
+                {projects.map((item) => {
+                    const{id,name,text,demoLink,codeLink,mobileImg,LaptopImg} = item;
+                    return (
+                        <div className='project-wrapper project1' key={id} data-aos="fade-left">
+                            <div className='project-details'>
+                <h1>{name}</h1>
+            <p>{text}</p>
+         <a href={demoLink}
          className='project-links'><span>
             View Demo</span></a> 
-            <a href='https://github.com/YeeshaDev/foodie-restuarant'
+            <a href={codeLink}
             className='project-links'><span>
             Source Code</span></a> 
             </div>
                 <div className='project-info '>
                     <div className='device'>
-                    <img src='./images/foodie-mac.png'
+                    <img src={LaptopImg}
                     alt='project'
                     className='device-img'/>
-                    <img src='./images/foodie-mobile.png'
+                    <img src={mobileImg}
                     alt='project'
                     className='mobile-img'/>
                     </div>
@@ -33,33 +36,17 @@ function Project() {
                
             </div>
             </div>
-            <div className='project-wrapper project2'data-aos="fade-left">
-            <div className='project-details'>
-                <h1>Gadgets</h1>
-            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, expedita voluptates? Ut corrupti 
-                pariatur inventore facilis reprehenderit, 
-                aut tenetur iure.</h4>
-         <a href='https://youtube-clone-yeeshadev.vercel.app'
-         className='project-links'><span>
-            View Demo</span></a> 
-            <a href='https://github.com/YeeshaDev/gadget-store-app'
-            className='project-links'><span>
-            Source Code</span></a> 
-            </div>
-                <div className='project-info '>
-                <div className='device'>
-                    <img src='./images/gadgets-tab.png'
-                    alt='project'
-                    className='device-img'/>
-                    <img src='./images/gadgets-mobile.png'
-                    alt='project'
-                    className='mobile-img'/>
-                    </div>
-                    
-               
-            </div>
-            </div>
-            <div className='project-wrapper project3' data-aos="fade-right">
+                    )
+                })}
+                
+            <hr/> 
+        </div>
+    )
+}
+
+export default Project
+
+/* <div className='project-wrapper ' data-aos="fade-right">
             <div className='project-details'>
                 <h1>Youtube Clone</h1>
             <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, expedita voluptates? Ut corrupti 
@@ -78,63 +65,4 @@ function Project() {
                     className='project-img'/>
                
             </div>
-            </div>
-            <div className='project-wrapper project2'data-aos="fade-left">
-            <div className='project-details'>
-                <h1>TopSeal Blog</h1>
-            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, expedita voluptates? Ut corrupti 
-                pariatur inventore facilis reprehenderit, 
-                aut tenetur iure.</h4>
-         <a href='https://news-media-d3jm.vercel.app/'
-         className='project-links'><span>
-            View Demo</span></a> 
-            <a href='https://github.com/YeeshaDev/News-media'
-            className='project-links'><span>
-            Source Code</span></a> 
-            </div>
-                <div className='project-info '>
-                <div className='device'>
-                    <img src='./images/blog-laptop.png'
-                    alt='project'
-                    className='device-img'/>
-                    <img src='./images/blog-mobile.png'
-                    alt='project'
-                    className='mobile-img'/>
-                    </div>
-                    
-               
-            </div>
-            </div>
-            <div className='project-wrapper project2'data-aos="fade-right">
-            <div className='project-details'>
-                <h1>Musik</h1>
-            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, expedita voluptates? Ut corrupti 
-                pariatur inventore facilis reprehenderit, 
-                aut tenetur iure.</h4>
-         <a href='https://news-media-d3jm.vercel.app/'
-         className='project-links'><span>
-            View Demo</span></a> 
-            <a href='https://github.com/YeeshaDev/News-media'
-            className='project-links'><span>
-            Source Code</span></a> 
-            </div>
-                <div className='project-info '>
-                <div className='device'>
-                    <img src='./images/musik-tab.png'
-                    alt='project'
-                    className='device-img'/>
-                    <img src='./images/musik-mobile.png'
-                    alt='project'
-                    className='mobile-img'/>
-                    </div>
-                    
-               
-            </div>
-            </div>
-            
-            <hr/> 
-        </div>
-    )
-}
-
-export default Project
+            </div> */

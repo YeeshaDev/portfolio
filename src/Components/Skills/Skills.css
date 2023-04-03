@@ -65,7 +65,7 @@
     .techstack-content {
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        align-items: center;
+        place-items: center;
         max-width: 400px;
         
         
@@ -167,6 +167,10 @@
         .technologies {
             margin: 1rem 0;
             padding: 0 10px;
+        }
+
+        .stack-icon{
+            font-size: 0.8rem;
         }
         
     }

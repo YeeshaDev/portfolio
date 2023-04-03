@@ -92,7 +92,7 @@ margin-left: 3rem;
     display: block;
     border: 1px solid var(--clr-white);
     padding: 1rem 0.5rem;
-    height: 300px;
+    height: 320px;
     width: 350px;
     margin: 0.5rem;
 }
@@ -172,6 +172,7 @@ margin-left: 3rem;
     .tools {
         flex-direction: column;
         width: 90%;
+        
         
     }
     
