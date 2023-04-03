@@ -11,7 +11,7 @@ function Skills() {
           <h1 className='skills'>Skills</h1> 
           <span className='my-skills'>My coding Journey</span>
           <p className='skills-subtext'>My coding journey has been the one of best thing i have experienced.
-            Started from coming across a tweet on twitter,fell in love
+            My journey started when i came across a tweet on twitter,fell in love
             with how you can create amazing things from pieces of codes.
             I can remember starting with my phone and always groaning because of how frustrating it can be to code with a phone.Fast forward, got a laptop,
             practiced immensely and i have never been happier.

@@ -22,19 +22,9 @@ margin-left: 3rem;
     top: -120px;
     left: -110px;
     color:var(--primary-color1);
-    animation: scale 2s ease-in-out infinite;
     transition: all 0.2s ease-in-out;
 }
-@keyframes scale {
-    0%,100%{
-       color: var(--primary-color1); 
-       
-    }50%{
-        color: transparent;
-    -webkit-text-stroke: 2px var(--primary-color1);
-    transition: all 0.4s ease-in-out;
-    }
-}
+
 
 .my-self::before{
     content: '';

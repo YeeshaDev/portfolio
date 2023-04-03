@@ -30,11 +30,18 @@
         justify-content: center;
         width: 95%;
         margin: auto;
+        padding:0 1.5rem;
         
+    }
+
+    .skills-subtext {
+        width: 80%;
+        line-height: 2;
     }
 
     .my-skillset{
         animation: rotate 15s linear infinite;
+        margin-top: 5rem;
     }
 
     @keyframes rotate {
@@ -45,11 +52,11 @@
     }
 
     .my-skillset img{
-        width: 350px;
+        width: 400px;
     }
     .technologies {
         margin: 1rem 1.2rem;
-        padding:0 1.2rem;
+        padding:0 2rem;
     }
     .techstack-content {
         display: grid;
@@ -80,15 +87,18 @@
         flex-direction: column-reverse;
         justify-content: center;
         margin-top: 2rem;
+        padding: 0;
        } 
-
+       
+       
        .my-skillset {
-        width: 500px;
+        width: 400px;
+        margin-top: 1rem;
+        padding-bottom: 2rem;
     }
 
-    .my-skillset img {
+    .my-skillset img{
         width: 100%;
-        
     }
 
     .skills {
@@ -97,13 +107,13 @@
         color:#3a3939;
         font-weight: 900;
         letter-spacing: 7px;
-        margin: 1rem;
+        margin:1rem auto;
         }
         
         .my-skills { 
             font-size: 2rem;
             top: -120px;
-            left: 5px;
+            left: 70px;
            
         }
         .skills-subtext {
@@ -111,6 +121,7 @@
             margin: auto;
             padding:0 1.3rem;
             line-height: 2;
+            width: 100%;
         }
 
         .technologies {
