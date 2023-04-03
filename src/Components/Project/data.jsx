@@ -61,4 +61,16 @@ demoLink:'https://movie-app-clone-beta.vercel.app',
 codeLink: 'https://github.com/YeeshaDev/react-app-clones/tree/master/netflix_clone'  
         
 },
+{
+    id:6,
+    name:'Youtube Clone',
+    text:`This is a youtube clone app that where you can search your favourite channels,watch videos 
+    and even leave comments.This website was created with ReactJs,CSS,Firebase,React Youtube,
+    Youtube Data Api,React Icons. `,
+    LaptopImg:'./images/youtube-tab.png',
+    mobileImg:'./images/youtube-mobile.png',
+    demoLink:'https://react-app-youtube-992s.vercel.app/',
+    codeLink: 'https://github.com/YeeshaDev/react-app-clones/tree/master/youtube-clone'  
+            
+    },
 ]

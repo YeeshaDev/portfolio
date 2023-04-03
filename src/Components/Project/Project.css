@@ -125,11 +125,11 @@ margin: 2rem 0 0 3rem;
   
 .mobile-img {
     position: absolute;
-    width:100%;
+    width:90%;
     height: 70%;
     object-fit: contain;
     bottom: -3rem;
-    right: -10rem;
+    right: -9rem;
     
     
     
