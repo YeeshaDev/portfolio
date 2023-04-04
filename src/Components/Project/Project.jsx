@@ -12,7 +12,7 @@ function Project() {
                 {projects.map((item) => {
                     const{id,name,text,demoLink,codeLink,mobileImg,LaptopImg} = item;
                     return (
-                        <div className='project-wrapper project1' key={id} data-aos="fade-left">
+                        <div className='project-wrapper ' key={id} data-aos="fade-left">
                             <div className='project-details'>
                 <h1>{name}</h1>
             <p>{text}</p>

@@ -63,7 +63,7 @@
    
     .hero-image .avatar {
       width: 23rem;
-      height: auto;
+      height: 23rem;
       object-fit: contain;
       
     }
@@ -115,7 +115,7 @@
     }
       .hero-image .avatar {
           width: 16rem;
-          height: auto;
+          height: 16rem;
           margin-left: 0rem;
           margin-top: 1rem;  
         }

@@ -23,7 +23,9 @@ function Home() {
                     <div className='img-container'></div>
                     <img src='./images/avatar1.png'
                     className='avatar' 
-                    alt='avatar'/>  
+                    alt='avatar'
+                    
+                    />  
                                  
                     </div>
                     </section>
