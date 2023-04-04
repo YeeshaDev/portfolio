@@ -31,18 +31,21 @@ function Footer() {
                 <a href='https://twitter.com/Aisha_juwon' 
                 className='mobile-mobile-socials'
                 target='_blank'
+                aria-hidden="true"
                 rel="noreferrer">
                 <FaTwitter className='social-icon'/>  
                 </a>
                 <a href='https://github.com/YeeshaDev' 
                 className='mobile-socials'
                 target='_blank'
+                aria-hidden="true"
                 rel="noreferrer">
                 <FaGithub className='social-icon'/>  
                 </a>
                 <a href='https://www.linkedin.com/in/aisha-agunbiade-88646b1a6' 
                 className='mobile-socials'
                 target='_blank'
+                aria-hidden="true"
                 rel="noreferrer">
                 <FaLinkedin className='social-icon'/>  
                 </a>

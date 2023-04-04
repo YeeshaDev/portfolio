@@ -8,7 +8,7 @@ function Home() {
         <div className='home-content' id='home'>
             <section className='home-upper'>
             <div className='home-text' >
-            <h1>Hi,<br/> 
+            <h1>Hi, I am<br/> 
             <Typed
             strings={["Aisha."]}
             typeSpeed={120}
@@ -21,7 +21,8 @@ function Home() {
                 </div>
                 <div className='hero-image'>
                     <div className='img-container'></div>
-                    <img src='./images/avatar1.png' 
+                    <img src='./images/avatar1.png'
+                    className='avatar' 
                     alt='avatar'/>  
                                  
                     </div>

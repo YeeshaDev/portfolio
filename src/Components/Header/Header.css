@@ -135,7 +135,7 @@ color: var(--primary-color1);
     width: 100%;
   }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:960px){
     .menu ul{
         display: flex;
         align-items: center;
@@ -199,7 +199,7 @@ color: var(--primary-color1);
     }
 }
 
-@media screen and (max-width:500px){
+/*@media screen and (max-width:500px){
     
     .menu.active ul{
         left: 50%;
@@ -211,3 +211,4 @@ color: var(--primary-color1);
     }
     
 }
+*/

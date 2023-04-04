@@ -104,6 +104,12 @@ margin-left: 3rem;
 
 .problem-solving-img {
     width: 3rem;
+    height: 3rem;
+}
+
+.web-tool-img{
+    width: auto;
+    height: auto;
 }
 
 .tools-text .mobile-icon {

@@ -23,7 +23,9 @@ function About() {
                     <h1>Web<br/> Development</h1>
                     <p>I create awesome websites and also the fix technical aspects,
                  such as its performance and capacity.</p>
-                 <img src='./images/webtools.svg' alt='web tool'/>
+                 <img src='./images/webtools.svg' 
+                 className='web-tool-img'
+                 alt='web tool'/>
                  </div>
                  <div className='tools-text'>
                     <h1>Problem<br/> Solving</h1>

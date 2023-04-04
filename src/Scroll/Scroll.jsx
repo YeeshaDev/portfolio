@@ -14,6 +14,15 @@ function Scroll() {
         setScrollToTop(false)
      }
     };
+
+    /*useEffect(() => {
+        const scrolled = () => {
+            window.scrollTo({
+            top:0,
+            behavior:'smooth'
+        })
+    }
+    })*/
     const scrolled = () => {
         window.scrollTo({
         top:0,

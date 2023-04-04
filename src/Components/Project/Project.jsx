@@ -26,10 +26,12 @@ function Project() {
                 <div className='project-info '>
                     <div className='device'>
                     <img src={LaptopImg}
+                    loading='lazy'
                     alt='project'
                     className='device-img'/>
                     <img src={mobileImg}
                     alt='project'
+                    loading='lazy'
                     className='mobile-img'/>
                     </div>
                     
