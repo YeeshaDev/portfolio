@@ -1,4 +1,3 @@
-import foodieLap from '../../assets/foodie-mac.png'
 export const projects =[
     
 {
@@ -11,7 +10,7 @@ React-icons,React-redux Toolkit.`,
 LaptopImg:'foodie-mac.png',
 mobileImg:'foodie-mobile.png',
 demoLink:'https://foodie-restuarant-yeeshadev-fuzekzzfm-yeeshadev.vercel.app/',
-codeLink: 'https://github.com/YeeshaDev/foodie-restuarant'      
+codeLink: 'https://github.com/yeeshadev/foodie-restuarant'      
 },
 {
 id:2,
@@ -22,7 +21,7 @@ text:`This is a Gadget website where you can shop for different gadgets ranging 
 LaptopImg:'gadget-tab.png',
 mobileImg:'gadgets-mobile.png' ,
 demoLink:'https://gadget-store-app.vercel.app/',
-codeLink:'https://github.com/YeeshaDev/gadget-store-app'  
+codeLink:'https://github.com/yeeshadev/gadget-store-app'  
         
 },
 {
@@ -35,7 +34,7 @@ to stay updated. This website was created with NextJs,CSS,Bootstrap,New York Tim
 LaptopImg:'blog-laptop.png',
 mobileImg:'blog-mobile.png',
 demoLink:'https://news-media-d3jm.vercel.app/',
-codeLink:'https://github.com/YeeshaDev/News-media'
+codeLink:'https://github.com/yeeshadev/news-media'
         
 },
 {
@@ -48,7 +47,7 @@ codeLink:'https://github.com/YeeshaDev/News-media'
      LaptopImg:'musik-tab.png',
 mobileImg:'musik-mobile.png',
 demoLink:'https://music-app-yeeshadev.vercel.app/',
-codeLink: 'https://github.com/YeeshaDev/music-app'     
+codeLink: 'https://github.com/yeeshadev/music-app'     
         
 },
 {
@@ -59,7 +58,7 @@ text:`This is a netflix clone app that shows movie trailers of the specified mov
 LaptopImg:'netflix-laptop.png',
 mobileImg:'netflix-mobile.png',
 demoLink:'https://movie-app-clone-beta.vercel.app',
-codeLink: 'https://github.com/YeeshaDev/react-app-clones/tree/master/netflix_clone'  
+codeLink: 'https://github.com/yeeshadev/react-app-clones/tree/master/netflix_clone'  
         
 },
 {
@@ -71,7 +70,7 @@ codeLink: 'https://github.com/YeeshaDev/react-app-clones/tree/master/netflix_clo
     LaptopImg:'youtube-tab.png',
     mobileImg:'youtube-mobile.png',
     demoLink:'https://react-app-youtube-992s.vercel.app/',
-    codeLink: 'https://github.com/YeeshaDev/react-app-clones/tree/master/youtube-clone'  
+    codeLink: 'https://github.com/yeeshadev/react-app-clones/tree/master/youtube-clone'  
             
     },
 ]

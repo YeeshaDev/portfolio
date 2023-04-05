@@ -5,12 +5,12 @@ function Footer() {
     return (
         <footer>
             <section className='social-links'>
-                <a href='https://twitter.com/Aisha_juwon' 
+                <a href='https://twitter.com/aisha_juwon' 
                 className='socials'
                 target='_blank'>
                 <FaTwitter className='social-icon'/>  
                 </a>
-                <a href='https://github.com/YeeshaDev' 
+                <a href='https://github.com/yeeshadev' 
                 className='socials'
                 target='_blank'>
                 <FaGithub className='social-icon'/>  
@@ -26,13 +26,13 @@ function Footer() {
 
           {/* This is the mobile social links */}
           <section className='mobile-links'>
-                <a href='https://twitter.com/Aisha_juwon' 
+                <a href='https://twitter.com/aisha_juwon' 
                 className='mobile-mobile-socials'
                 target='_blank'
                 >
                 <FaTwitter className='social-icon'/>  
                 </a>
-                <a href='https://github.com/YeeshaDev' 
+                <a href='https://github.com/yeeshadev' 
                 className='mobile-socials'
                 target='_blank'
                 >

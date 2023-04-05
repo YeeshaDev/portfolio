@@ -12,7 +12,13 @@
 
 .scroll-btn button {
     font-size: 2rem;
+    color: var(--primary-color1);
+    cursor: pointer;
+}
+
+.scroll-btn button:hover {
     color: var(--clr-white);
+    
 }
 
 @media screen and (max-width:600px) {
