@@ -26,11 +26,11 @@ function Project() {
             </div>
                 <article className='project-info '>
                     <div className='device'>
-                    <img src={`../src/assets/${LaptopImg}`}
+                    <img src={`/src/assets/${LaptopImg}`}
                     alt='project'
                     className='device-img'
                     />
-                    <img src={`../src/assets/${mobileImg}`}
+                    <img src={`/src/assets/${mobileImg}`}
                     alt='project'
                     
                     className='mobile-img'/>
