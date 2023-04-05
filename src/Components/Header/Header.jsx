@@ -27,7 +27,7 @@ function Header({playing,pause,play}) {
           </button>
                 </div>
                 
-                <div className={menu ? 'menu active' : 'menu'} >
+                <section className={menu ? 'menu active' : 'menu'} >
             <ul>
                 <li className='active-btn'><Link to='home' spy={true} smooth={true} offset={-70} duration={500}  onClick={handleClick} >Home</Link></li>
                 <li><Link to='about' spy={true} smooth={true} offset={-70} duration={500}  onClick={handleClick}>About</Link>
@@ -37,7 +37,7 @@ function Header({playing,pause,play}) {
                 <a href={PDF} target='_blank'
                 className='resume'><span> Resume </span></a>
             </ul>
-            </div>
+            </section>
             <a href={PDF} target='_blank' className='resume-btn'><span>Resume</span></a>
            <button className={menu ? 'menu-btn active' : 'menu-btn'} onClick={handleClick}>
                     {menu ? <FaTimes/> : <FaEquals/>}

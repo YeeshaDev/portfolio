@@ -1,4 +1,5 @@
 import React from 'react';
+import skillSet from '../../assets/skillset.svg'
 import './Skills.css'
 
 
@@ -18,7 +19,7 @@ function Skills() {
           </p>
           </div>
           <div className='my-skillset'>
-            <img src='./images/skillset.svg' 
+            <img src={skillSet}
             alt='skill set'
             />
           </div>

@@ -43,9 +43,9 @@ emailjs.sendForm('service_pvetqze',
     
        
     return (
-        <div className='contact-content' id='contact'>
+        <section className='contact-content' id='contact'>
             <ToastContainer/>
-            <div className='contact-wrapper' data-aos="fade-up">
+            <article className='contact-wrapper' data-aos="fade-up">
                 <h1>Contact</h1>
                 
          <h2>Get In Touch</h2>
@@ -94,10 +94,10 @@ emailjs.sendForm('service_pvetqze',
     />
          </form>
          
-        </div>
+        </article>
 
          <hr/>
-        </div>
+        </section>
     )
 }
 

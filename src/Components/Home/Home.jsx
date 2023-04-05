@@ -1,13 +1,14 @@
 import React from 'react';
 import Typed from "react-typed";
+import Avatar from '../../assets/avatar1.png'
 import BackgroundAnimation from './BackgroundAnimation';
 import './Home.css'
 
 function Home() {
     return (
-        <div className='home-content' id='home'>
+        <main className='home-content' id='home'>
             <section className='home-upper'>
-            <div className='home-text' >
+            <article className='home-text' >
             <h1>Hi, I am<br/> 
             <Typed
             strings={["Aisha."]}
@@ -18,10 +19,10 @@ function Home() {
                 </h1>
                 <h2>Frontend Web Developer</h2>
 
-                </div>
+                </article>
                 <div className='hero-image'>
                     <div className='img-container'></div>
-                    <img src='./images/avatar1.png'
+                    <img src={Avatar}
                     className='avatar' 
                     alt='avatar'
                     
@@ -30,10 +31,12 @@ function Home() {
                     </div>
                     </section>
                     <h6 ><q>Passionate about building beautiful things...</q></h6>
-                    <a href='mailto:aishaagunbiade05@gmail.com'>contact me</a>
+                    <a href='mailto:aishaagunbiade05@gmail.com'
+                    className='email-btn'
+                    >contact me</a>
                     <BackgroundAnimation/>
                 <hr />
-        </div>
+        </main>
     )
 }
 

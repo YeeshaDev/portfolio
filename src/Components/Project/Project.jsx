@@ -1,10 +1,11 @@
 import React from 'react';
 import { projects } from './data';
+import age from '../../assets/foodie-mac.png'
 import './Project.css';
 
 function Project() {
     return (
-        <div className='project-content' id='project' data-aos="fade-up">
+        <main className='project-content' id='project' data-aos="fade-up">
            
             <h1 className='work'>Projects</h1>
             <span className='my-projects'>my works</span>
@@ -12,7 +13,7 @@ function Project() {
                 {projects.map((item) => {
                     const{id,name,text,demoLink,codeLink,mobileImg,LaptopImg} = item;
                     return (
-                        <div className='project-wrapper ' key={id} data-aos="fade-left">
+                        <section className='project-wrapper ' key={id} data-aos="fade-left">
                             <div className='project-details'>
                 <h1>{name}</h1>
             <p>{text}</p>
@@ -23,26 +24,26 @@ function Project() {
             className='project-links'><span>
             Source Code</span></a> 
             </div>
-                <div className='project-info '>
+                <article className='project-info '>
                     <div className='device'>
-                    <img src={LaptopImg}
-                    loading='lazy'
+                    <img src={`./src/assets/${LaptopImg}`}
                     alt='project'
-                    className='device-img'/>
-                    <img src={mobileImg}
+                    className='device-img'
+                    />
+                    <img src={`./src/assets/${mobileImg}`}
                     alt='project'
-                    loading='lazy'
+                    
                     className='mobile-img'/>
                     </div>
                     
                
-            </div>
-            </div>
+            </article>
+            </section>
                     )
                 })}
                 
             <hr/> 
-        </div>
+        </main>
     )
 }
 

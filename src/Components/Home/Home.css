@@ -29,28 +29,7 @@
       
     }
     
-   /* .home-text h1 span::after{
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background-color: var(--bg-color);
-      border-left:5px solid var(--primary-color1);
-      animation: typing 5s steps(10) infinite;
-      z-index: 2;
-    }
-    @keyframes typing {
-      40%,60% {
-        left:100%;
-        
-      }
-      100% {
-        left:0;
-      }
-    }
-*/
+   
     .home-text h2 {
       font-size: 2.2rem;
     }
