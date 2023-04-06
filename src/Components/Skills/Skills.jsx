@@ -1,5 +1,5 @@
 import React from 'react';
-import skillSet from '../../assets/skillset.svg'
+import skillSet from './skillset.svg'
 import './Skills.css'
 
 

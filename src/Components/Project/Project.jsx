@@ -1,6 +1,5 @@
 import React from 'react';
 import { projects } from './data';
-import age from '../../assets/foodie-mac.png'
 import './Project.css';
 
 function Project() {
@@ -26,11 +25,11 @@ function Project() {
             </div>
                 <article className='project-info '>
                     <div className='device'>
-                    <img src={`/src/assets/${LaptopImg}`}
+                    <img src={`/assets/${LaptopImg}`}
                     alt='project'
                     className='device-img'
                     />
-                    <img src={`/src/assets/${mobileImg}`}
+                    <img src={`/assets/${mobileImg}`}
                     alt='project'
                     
                     className='mobile-img'/>

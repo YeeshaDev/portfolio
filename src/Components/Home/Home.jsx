@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from "react-typed";
-import Avatar from '../../assets/avatar1.png'
+import Avatar from './avatar1.png'
 import BackgroundAnimation from './BackgroundAnimation';
 import './Home.css'
 

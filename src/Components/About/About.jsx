@@ -1,6 +1,4 @@
 import React from 'react';
-import Webtool from '../../assets/webtools.svg';
-import PSolving from '../../assets/problem-solving.svg'
 import { FaMobileAlt } from 'react-icons/fa';
 import './About.css';
 
@@ -25,7 +23,7 @@ function About() {
                     <h1>Web<br/> Development</h1>
                     <p>I create awesome websites and also the fix technical aspects,
                  such as its performance and capacity.</p>
-                 <img src={Webtool} 
+                 <img src='/assets/webtools.svg' 
                  className='web-tool-img'
                  alt='web tool'/>
                  </div>
@@ -33,7 +31,7 @@ function About() {
                     <h1>Problem<br/> Solving</h1>
                     <p>I find desired solutions to a problem, and applying best 
                         practices to achieve the best and befitting result.</p>
-                 <img src={PSolving} 
+                 <img src='/assets/problem-solving.svg' 
                  alt='web tool'
                  className='problem-solving-img'/>
                  </div>
