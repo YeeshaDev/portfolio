@@ -25,7 +25,7 @@ function Skills() {
           </div>
           </div>
           <div className='technologies'>
-          <h4>Here are the few technologies i have used:</h4>
+          <p>Here are the few technologies i have used:</p>
           <div className='techstack'>
             {Tstack.map((item) =>(
               <p key={item.id} data-aos='fade-up'>{item.stack}</p>

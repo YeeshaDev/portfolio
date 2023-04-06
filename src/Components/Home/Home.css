@@ -48,7 +48,7 @@
     }
     
      
-    .home-content h3 {
+    .home-content h6 {
       font-size: 1rem;
       font-family: 'La Belle Aurore', cursive;
       margin-left: 5rem;
@@ -98,7 +98,7 @@
           margin-left: 0rem;
           margin-top: 1rem;  
         }
-        .home-content h3 {
+        .home-content h6 {
           margin-top: 0.8rem;
           margin-left: 3rem;
       
