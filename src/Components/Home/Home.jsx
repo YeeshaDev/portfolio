@@ -30,7 +30,7 @@ function Home() {
                                  
                     </div>
                     </section>
-                    <h6 ><q>Passionate about building beautiful things...</q></h6>
+                    <h3 ><q>Passionate about building beautiful things...</q></h3>
                     <a href='mailto:aishaagunbiade05@gmail.com'
                     className='email-btn'
                     >contact me</a>
