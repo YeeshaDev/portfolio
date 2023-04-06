@@ -107,7 +107,7 @@ margin: 2rem 0 0 3rem;
 
 
 .device-img {
-    width: 90%;
+    width: 500px;
     height: 500px;
     position: relative;
     image-resolution:from-image 300dpi;
@@ -121,13 +121,10 @@ margin: 2rem 0 0 3rem;
 .mobile-img {
     position: absolute;
     width:200px;
-    height: 40%;
+    height: 180px;
     object-fit: contain;
-    bottom: 0.5rem;
-    right: 1rem;
-    
-    
-    
+    bottom: 1.5rem;
+    right: 0rem;
     
 }
 
@@ -196,7 +193,7 @@ margin: 2rem 0 0 3rem;
         margin:1rem auto;
        }
        .device-img {
-        width: 100%;
+        width: 600px;
         height: 300px;
         position: relative;
         image-resolution:from-image 300dpi;
@@ -211,11 +208,11 @@ margin: 2rem 0 0 3rem;
     
     .mobile-img {
         position: absolute;
-        width: 90%;
-        height:70%;
+        width: 200px;
+        height:200px;
         object-fit: contain;
         bottom: -5rem;
-        right: -12.5rem;
+        right: 0;
         padding-bottom: 2rem;
         
         
@@ -272,12 +269,7 @@ font-size: 1.5rem;
 margin-top: 1rem 0;
       } 
        
-       .project-img {
-        display: block;
-           width: 90%; 
-           margin: auto;
-       } 
-
+       
        .project-links{
         display: flex;
         flex-direction: column;
@@ -287,11 +279,10 @@ margin-top: 1rem 0;
        }
 
        .device-img {
-        width: 90%;
+        width: 400px;
         height: 300px;
+        padding: 0 10px;
         object-fit: contain;
-        
-       
     }
     
 
@@ -300,11 +291,8 @@ margin-top: 1rem 0;
         width: 200px;
         height: 170px;
         object-fit: contain;
-        bottom: -3rem;
-        right: -2rem;
-    
-        
-        
+        bottom: -3.5rem;
+        right: -3rem;
     }
        
        
@@ -320,10 +308,16 @@ margin-top: 1rem 0;
         margin-top: 1rem;
     
     }
+    .device-img {
+        width: 300px;
+        height: 300px;
+        padding:0 0.8rem;   
+    }
+    
 
-    
-    
-    
-    
+       .mobile-img {
+        position: absolute;
+        width: 200px;    
+    }   
 }
 
