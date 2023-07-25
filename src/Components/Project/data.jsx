@@ -57,7 +57,7 @@ text:`This is a netflix clone app that shows movie trailers of the specified mov
      This website was created with ReactJs,CSS,Firebase,Movie-trailer,Paystack payment gateway. `,
 LaptopImg:'netflix-laptop.png',
 mobileImg:'netflix-mobile.png',
-demoLink:'https://movie-app-clone-beta.vercel.app',
+demo:'https://movie-app-clone-beta.vercel.app',
 codeLink: 'https://github.com/yeeshadev/react-app-clones/tree/master/netflix_clone'  
         
 },
