@@ -11,6 +11,7 @@ function Project() {
             
                 {projects.map((item) => {
                     const{id,name,text,demoLink,codeLink,mobileImg,LaptopImg} = item;
+                    
                     return (
                         <section className='project-wrapper ' key={id} data-aos="fade-left">
                             <div className='project-details'>

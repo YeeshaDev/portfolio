@@ -1,21 +1,22 @@
 import React from 'react';
-import Typed from "react-typed";
+//import Typed from "react-typed";
 import Avatar from './avatar1.png'
 import BackgroundAnimation from './BackgroundAnimation';
 import './Home.css'
-
+import Typewriter from 'typewriter-effect';
 function Home() {
     return (
         <main className='home-content' id='home'>
             <section className='home-upper'>
             <article className='home-text' >
             <h1>Hi, I am<br/> 
-            <Typed
-            strings={["Aisha."]}
-            typeSpeed={120}
-            backSpeed={120}
-            loop
-          />
+            <Typewriter
+  options={{
+    strings: ['Aisha'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
                 </h1>
                 <h2>Frontend Web Developer</h2>
 
@@ -40,4 +41,9 @@ function Home() {
     )
 }
 
-export default Home
+export default Home/** <Typed
+strings={["Aisha."]}
+typeSpeed={120}
+backSpeed={120}
+loop
+/> */
