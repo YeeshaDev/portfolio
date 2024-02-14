@@ -27,7 +27,7 @@ codeLink:'https://github.com/yeeshadev/gadget-store-app'
 {
     id:3,
     name:'Slum Art',
-    text:`This is a charity organisation website that goes to the slum to organise events for children in the slum and the students are taught how to build artworks.Theses artworks are sold and put back into those children to make their lives better and mre fulfilling.This website was created with ReactJs,CSS,Tailwind,React-Redux Toolkit,React Icons,Paystack,Aos.`,
+    text:`This is a charity organisation website that goes to the slum to organise events for children in the slum and the students are taught how to build artworks.These artworks are sold and put back into those children to make their lives better and more fulfilling.This website was created with ReactJs,CSS,Tailwind,React-Redux Toolkit,React Icons,Paystack,Aos.`,
     LaptopImg:'slumartmac.png',
     mobileImg:'slumart-mobile.png' ,
     demoLink:'https://www.slumart.org/',
