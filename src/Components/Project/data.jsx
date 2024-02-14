@@ -78,7 +78,7 @@ codeLink: 'https://github.com/yeeshadev/music-app'
          This website was created with ReactJs,CSS,Firebase,Movie-trailer,Paystack payment gateway. `,
     LaptopImg:'netflix-laptop.png',
     mobileImg:'netflix-mobile.png',
-    demo:'https://movie-app-clone-beta.vercel.app',
+    demoLink:'https://movie-app-clone-beta.vercel.app',
     codeLink: 'https://github.com/yeeshadev/react-app-clones/tree/master/netflix_clone'  
             
     },
