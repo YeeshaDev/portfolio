@@ -18,7 +18,7 @@ function Project() {
                 <h1>{name}</h1>
             <p>{text}</p>
          <a href={demoLink}
-         className='project-links'><span>
+         className='project-links' target='_blank' rel='noreferrer noopener'><span>
             View Demo</span></a> 
             <a href={codeLink}
             className='project-links'><span>

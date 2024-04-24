@@ -1,5 +1,15 @@
 export const projects =[
-    
+    {
+        id:9,
+        name:'Amanda AI Shop',
+        text:`This is a website that allows different sellers to onboard their shops while the chatbot makes negotiations on behalf of the sellers and also the buying processes with the customers. 
+        This website was built with Next.js,Tailwind,firebase,chatbot,paystack`,
+        LaptopImg:'amanda-tab.png',
+        mobileImg:'amanda-mobile.png',
+        demoLink:'https://www.amanda-ai.space/',
+        codeLink: 'https://github.com/yeeshadev'      
+        },
+         
 {
 id:1,
 name:'Foodie Restuarant',
