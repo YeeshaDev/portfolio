@@ -47,17 +47,18 @@ codeLink:'https://github.com/yeeshadev/gadget-store-app'
         codeLink:'https://github.com/yeeshadev/news-media'
                 
         },
-    {
-        id:5,
-        name:'Workup Varsity',
-        text:`This is a tech learning platform where students can learn differnt tech skills and can earn money  when they refer a particular student to buy a course.This website was created with ReactJs,Tailwind,Django,React-Redux Toolkit,React Icons,react-hot-toast,Paystack`,
-        LaptopImg:'workup-mac.png',
-        mobileImg:'workup-mobile.png' ,
-        demoLink:'https://workupvarsity.com/',
-        codeLink:'https://github.com/yeeshadev'  
-                
-        },
-
+        {
+            id:5,
+            name:'Furniture Ecommerce',
+            text:`This is a furniture ecommerce website where you can 
+            shop anything furnitures for your kitchens,offices,bedroom etc. 
+            This website was built with React, Tailwind,framer-motion,supabase, React slick, React Icons. `,
+            LaptopImg:'furniture-mac.png',
+            mobileImg:'furniture-mobile.png',
+            demoLink:'https://furniture-yeeshadevs-projects.vercel.app/',
+            codeLink: 'https://github.com/yeeshadev/'
+            },
+    
 {
     id:6,
     name:'Musik Streaming App',
@@ -92,17 +93,17 @@ codeLink: 'https://github.com/yeeshadev/music-app'
     codeLink:'https://github.com/yeeshadev'  
             
     },
+    {
+        id:9,
+        name:'Workup Varsity',
+        text:`This is a tech learning platform where students can learn differnt tech skills and can earn money  when they refer a particular student to buy a course.This website was created with ReactJs,Tailwind,Django,React-Redux Toolkit,React Icons,react-hot-toast,Paystack`,
+        LaptopImg:'workup-mac.png',
+        mobileImg:'workup-mobile.png' ,
+        demoLink:'https://workupvarsity.com/',
+        codeLink:'https://github.com/yeeshadev'  
+                
+        },
 
-{
-    id:9,
-    name:'Youtube Clone',
-    text:`This is a youtube clone app that where you can search your favourite channels,watch videos 
-    and even leave comments.This website was created with ReactJs,CSS,Firebase,React Youtube,
-    Youtube Data Api,React Icons. `,
-    LaptopImg:'youtube-tab.png',
-    mobileImg:'youtube-mobile.png',
-    demoLink:'https://react-app-youtube-992s.vercel.app/',
-    codeLink: 'https://github.com/yeeshadev/react-app-clones/tree/master/youtube-clone'  
-            
-    },
+
+
 ]
